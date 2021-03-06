@@ -20,6 +20,9 @@
       "type": "time",
       "required": true,
       "unique": false
+    },
+    "week_day": {
+      "model": "week-day"
     }
   }
 }
