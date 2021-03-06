@@ -1,0 +1,36 @@
+{
+  "name": "glchurch-admin",
+  "private": true,
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "strapi": "3.4.1",
+    "strapi-admin": "3.4.1",
+    "strapi-connector-mongoose": "3.4.1",
+    "strapi-plugin-content-manager": "3.4.1",
+    "strapi-plugin-content-type-builder": "3.4.1",
+    "strapi-plugin-email": "3.4.1",
+    "strapi-plugin-upload": "3.4.1",
+    "strapi-plugin-users-permissions": "3.4.1",
+    "strapi-provider-upload-aws-s3": "^3.5.2",
+    "strapi-utils": "3.4.1"
+  },
+  "author": {
+    "name": "Sergey Sherby"
+  },
+  "strapi": {
+    "uuid": "6c870b1c-a10c-4b3c-a172-0517171a52fa"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

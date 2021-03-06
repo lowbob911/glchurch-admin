@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "publications",
+  "info": {
+    "name": "Publication",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}
