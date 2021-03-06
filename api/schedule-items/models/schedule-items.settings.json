@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "schedule-items",
+  "info": {
+    "name": "Schedule-items",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "Time": {
+      "type": "time",
+      "required": true,
+      "unique": false
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/week-days",
+      "handler": "week-day.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/week-days/count",
+      "handler": "week-day.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/week-days/:id",
+      "handler": "week-day.findOne",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
